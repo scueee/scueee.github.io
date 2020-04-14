@@ -1,13 +1,20 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Win10应用快捷启动解决方案 | Gridea</title>
-<link rel="shortcut icon" href="https://scueee.github.io/favicon.ico?v=1586873886032">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    <meta charset="utf-8" >
+
+<title>Win10应用快捷启动解决方案 | scueee</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://scueee.github.io/favicon.ico?v=1586875066274">
 <link rel="stylesheet" href="https://scueee.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Win10应用快捷启动解决方案 | Gridea - Atom Feed" href="https://scueee.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
@@ -15,82 +22,81 @@
 首先当然是我正在用的方法，共三个：
 一.  使用自带搜索 Cortana..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://scueee.github.io">
-  <img class="avatar" src="https://scueee.github.io/images/avatar.png?v=1586873886032" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://scueee.github.io">
+        <img src="https://scueee.github.io/images/avatar.png?v=1586875066274" class="site-logo">
+        <h1 class="site-title">scueee</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      个人博客
+    </div>
+    <div class="site-footer">
+      https://github.com/scueee/ | <a class="rss" href="https://scueee.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              Win10应用快捷启动解决方案
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-04-14
-              </span>
-              <span>
-                4 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Win10应用快捷启动解决方案</h2>
+            <div class="post-date">2020-04-14</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>本人电脑上有存有许多小工具，需要启动时往往疲于寻找，于是尝试了许多方案，终于找到了比较满意的方案，所以写下此篇。当然，本文也会介绍一些曾经尝试过但最后并不顺手的方案。</p>
+            <div class="post-content" v-pre>
+              <p>本人电脑上有存有许多小工具，需要启动时往往疲于寻找，于是尝试了许多方案，终于找到了比较满意的方案，所以写下此篇。当然，本文也会介绍一些曾经尝试过但最后并不顺手的方案。</p>
 <p>首先当然是我正在用的方法，共三个：</p>
 <p>一. <a href="#1"> 使用自带搜索 Cortana </a></p>
 <p>二. <a href="#2"> 在任务栏新建工具栏 </a></p>
@@ -183,88 +189,36 @@
 <figure data-type="image" tabindex="6"><img src="https://img-blog.csdnimg.cn/20200414220755657.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
 <p>类似QQ的能吸附隐藏在屏幕边缘的快速启动器。<a href="https://www.52pojie.cn/thread-1149304-1-1.html">Lucy</a>、<a href="https://www.52pojie.cn/thread-818034-1-1.html">Lily</a>、<a href="https://getrolan.com/">Rolan</a>、<a href="http://www.3lsoft.com/">音速启动(Vstart)</a>。</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#%E4%B8%80-%E5%88%A9%E7%94%A8%E8%87%AA%E5%B8%A6%E6%90%9C%E7%B4%A2-cortana">一. 利用自带搜索 Cortana</a></li>
-<li><a href="#%E4%BA%8C-%E5%9C%A8%E4%BB%BB%E5%8A%A1%E6%A0%8F%E6%96%B0%E5%BB%BA%E5%B7%A5%E5%85%B7%E6%A0%8F">二. 在任务栏新建工具栏</a></li>
-<li><a href="#%E4%B8%89-%E4%BD%BF%E7%94%A8-winr">三. 使用 Win+R</a></li>
-<li><a href="#%E5%9B%9B-listary">四. Listary</a></li>
-<li><a href="#%E4%BA%94-runany">五. RunAny</a></li>
-<li><a href="#%E5%85%AD-quicker">六. Quicker</a></li>
-<li><a href="#%E4%B8%83-%E6%A1%8C%E9%9D%A2%E5%90%AF%E5%8A%A8%E5%99%A8%E5%A4%A7%E6%A6%82%E6%98%AF%E8%BF%99%E4%B9%88%E5%8F%AB">七. 桌面启动器（大概是这么叫）</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
+            
+            
+
+            
+
+          </div>
+
         </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://scueee.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
+
+
+
   </body>
 </html>
