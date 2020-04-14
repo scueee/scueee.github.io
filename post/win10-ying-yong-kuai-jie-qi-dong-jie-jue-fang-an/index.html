@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Win10应用快捷启动解决方案 | Gridea</title>
-<link rel="shortcut icon" href="https://scueee.github.io/favicon.ico?v=1586856939040">
+<link rel="shortcut icon" href="https://scueee.github.io/favicon.ico?v=1586873886032">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://scueee.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Win10应用快捷启动解决方案 | Gridea - Atom Feed" href="https://scueee.github.io/atom.xml">
@@ -11,8 +11,9 @@
 
 
 
-    <meta name="description" content="1
-" />
+    <meta name="description" content="本人电脑上有存有许多小工具，需要启动时往往疲于寻找，于是尝试了许多方案，终于找到了比较满意的方案，所以写下此篇。当然，本文也会介绍一些曾经尝试过但最后并不顺手的方案。
+首先当然是我正在用的方法，共三个：
+一.  使用自带搜索 Cortana..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -22,7 +23,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://scueee.github.io">
-  <img class="avatar" src="https://scueee.github.io/images/avatar.png?v=1586856939040" alt="">
+  <img class="avatar" src="https://scueee.github.io/images/avatar.png?v=1586873886032" alt="">
   </a>
   <h1 class="site-title">
     Gridea
@@ -82,18 +83,130 @@
                 2020-04-14
               </span>
               <span>
-                1 min read
+                4 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>1</p>
+                <p>本人电脑上有存有许多小工具，需要启动时往往疲于寻找，于是尝试了许多方案，终于找到了比较满意的方案，所以写下此篇。当然，本文也会介绍一些曾经尝试过但最后并不顺手的方案。</p>
+<p>首先当然是我正在用的方法，共三个：</p>
+<p>一. <a href="#1"> 使用自带搜索 Cortana </a></p>
+<p>二. <a href="#2"> 在任务栏新建工具栏 </a></p>
+<p>三. <a href="#3"> 使用 Win+R </a></p>
+<p>被我放弃的，适用于键盘党的方法：</p>
+<p>四. <a href="#4"> Listary </a></p>
+<p>五. <a href="#5">RunAny</a></p>
+<p>被我放弃的，适用于鼠标党的方法：</p>
+<p>五. <a href="#5">RunAny</a></p>
+<p>六. <a href="#6">Quicker</a></p>
+<p>七. <a href="#7"> 桌面启动器 </a></p>
+<div id="1">
+<h4 id="一-利用自带搜索-cortana">一. 利用自带搜索 Cortana</h4>
+<figure data-type="image" tabindex="1"><img src="https://img-blog.csdnimg.cn/20200414220125223.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="成果" loading="lazy"></figure>
+<p>该方法适用于应用繁多的 Win10 键盘党.</p>
+<ol>
+<li>
+<p>打开开始菜单下的程序文件夹</p>
+<pre><code>C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+</code></pre>
+</li>
+<li>
+<p>新建文件夹，将需要启动应用的快捷方式放入文件夹，建议在该文件夹多建几个文件夹分门别类地放，方便以后找。事实上，为了日后方便放入新应用的快捷方式，这里应该将右键单击该文件夹，发送到桌面快捷方式。</p>
+</li>
+<li>
+<p>到此基本OK，按下 Win 徽标键+Q或S调出搜索，键入快捷方式名称的前几个字或字母，直接回车就启动了。</p>
+</li>
+<li>
+<p>但是为求完美，我们需要更改 Win 自带搜索来排除干扰，增加速度。</p>
+</li>
+<li>
+<p>Win+S 调出搜索，单击右上角三点，选择[搜索设置]，选项全关。<br>
+<img src="https://img-blog.csdnimg.cn/20200414220210430.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"><br>
+<img src="https://img-blog.csdnimg.cn/20200414220257127.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+</li>
+<li>
+<p>Win+S 调出搜索，搜索【索引选项】打开，点击【修改】，选项全关，开始菜单不会因此关闭索引，敬请放心。再点击【高级】，【重建】索引，稍等片刻就OK了。<br>
+<img src="https://img-blog.csdnimg.cn/20200414220338535.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"><br>
+<img src="https://img-blog.csdnimg.cn/20200414220347561.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></p>
+</li>
+<li>
+<p>但是该方法有一个缺点，自带搜索只能识别快捷方式，例如 exe 文件就搜不出来，于是我用下面的方法二作为补充。</p>
+</li>
+</ol>
+<div id="2">
+<h4 id="二-在任务栏新建工具栏">二. 在任务栏新建工具栏</h4>
+<figure data-type="image" tabindex="2"><img src="https://img-blog.csdnimg.cn/20200414220423640.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<p>该方法适用于鼠标党</p>
+<ol>
+<li>新建文件夹，将需要启动应用的快捷方式放入文件夹，建议分门别类地放，方便以后找。用过方法一的可以使用那个文件夹。</li>
+<li>右键任务栏-&gt;工具栏-&gt;新建工具栏，选择上一步创建的文件夹即可。</li>
+<li>右键任务栏-&gt;工具栏-&gt;启用与文件夹同名的工具栏。<br>
+<img src="https://img-blog.csdnimg.cn/20200414220443599.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></li>
+<li>该方法有一个缺点，第一次启动可能会卡一下（反正我是这样）。</li>
+</ol>
+<div id="3">
+<h4 id="三-使用-winr">三. 使用 Win+R</h4>
+<p>该方法适用于键盘党</p>
+<ol>
+<li>新建文件夹，将需要启动应用的快捷方式放入文件夹，重命名为几个英文字母简写，复制文件夹所处路径，此处不需要分门别类。</li>
+<li>Win+S 调出搜索，搜索【编辑系统环境变量】打开，点击【环境变量】，找到系统变量下的【Path】双击打开，点击【新建】，输入文件夹路径（包括文件名）。</li>
+</ol>
+<figure data-type="image" tabindex="3"><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRlZS5jb20vc2N1ZWVlL2ltZy9yYXcvbWFzdGVyLzIwMjAvNF8xNC8zLnBuZw?x-oss-process=image/format,png" alt="" loading="lazy"></figure>
+<ol start="3">
+<li>一路确定后就OK了，Win+R 打开【运行】，输入英文简称回车运行。</li>
+<li>缺点为应用太多的时候不好记。</li>
+<li>类似软件：<a href="https://www.appinn.com/winr-adde/">Win+R Adde</a><br>
+<img src="https://img-blog.csdnimg.cn/2020041422052222.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></li>
+</ol>
+<div id="4">
+<h4 id="四-listary">四. Listary</h4>
+<p><img src="https://img-blog.csdnimg.cn/20200414220648948.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"><br>
+官网 <a href="https://www.listary.com/">https://www.listary.com/</a></p>
+<p>双击 Ctrl 调出搜索框，智能搜索，支持中文拼音搜索，功能强大，自定义程度高。</p>
+<p>但是，需要自启动，学习成本高，而我很懒（笑），最关键的，模糊搜索不能总是如你所愿。</p>
+<p>类似软件：<a href="http://www.wox.one/">Wox</a>、<a href="http://www.launchy.net/">Launchy</a>、<a href="http://keypirinha.com/index.html">Keypirinha</a></p>
+<div id="5">
+<h4 id="五-runany">五. RunAny</h4>
+<figure data-type="image" tabindex="4"><img src="https://img-blog.csdnimg.cn/20200414220710289.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<p>官网 <a href="https://hui-zz.gitee.io/runany/#/">https://hui-zz.gitee.io/runany</a></p>
+<p>利用AHK制成，同样也是个神器，鼠标党、键盘党双友好，但是功能众多，学习成本很高。实际用过后，对我而言，添加快捷启动较繁琐不便，较低的智能程度甚至对我造成了阻碍。</p>
+<div id="6">
+<h4 id="六-quicker">六. Quicker</h4>
+<figure data-type="image" tabindex="5"><img src="https://img-blog.csdnimg.cn/20200414220730521.jpg" alt="在这里插入图片描述" loading="lazy"></figure>
+<p>官网 <a href="https://www.getquicker.net/">https://www.getquicker.net/</a></p>
+<p>支持在右键长按或中键单击等方法后在鼠标指针旁唤出快捷面板，具有大量的动作库，功能强大。</p>
+<p>但是面板限制了快捷方式的数量，而增大面板不美观，增加页数不够快，找动作时要想一会儿，自启动时有个弹窗影响观感，故而还是被我舍弃了。</p>
+<div id="7">
+<h4 id="七-桌面启动器大概是这么叫">七. 桌面启动器（大概是这么叫）</h4>
+<figure data-type="image" tabindex="6"><img src="https://img-blog.csdnimg.cn/20200414220755657.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" loading="lazy"></figure>
+<p>类似QQ的能吸附隐藏在屏幕边缘的快速启动器。<a href="https://www.52pojie.cn/thread-1149304-1-1.html">Lucy</a>、<a href="https://www.52pojie.cn/thread-818034-1-1.html">Lily</a>、<a href="https://getrolan.com/">Rolan</a>、<a href="http://www.3lsoft.com/">音速启动(Vstart)</a>。</p>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E4%B8%80-%E5%88%A9%E7%94%A8%E8%87%AA%E5%B8%A6%E6%90%9C%E7%B4%A2-cortana">一. 利用自带搜索 Cortana</a></li>
+<li><a href="#%E4%BA%8C-%E5%9C%A8%E4%BB%BB%E5%8A%A1%E6%A0%8F%E6%96%B0%E5%BB%BA%E5%B7%A5%E5%85%B7%E6%A0%8F">二. 在任务栏新建工具栏</a></li>
+<li><a href="#%E4%B8%89-%E4%BD%BF%E7%94%A8-winr">三. 使用 Win+R</a></li>
+<li><a href="#%E5%9B%9B-listary">四. Listary</a></li>
+<li><a href="#%E4%BA%94-runany">五. RunAny</a></li>
+<li><a href="#%E5%85%AD-quicker">六. Quicker</a></li>
+<li><a href="#%E4%B8%83-%E6%A1%8C%E9%9D%A2%E5%90%AF%E5%8A%A8%E5%99%A8%E5%A4%A7%E6%A6%82%E6%98%AF%E8%BF%99%E4%B9%88%E5%8F%AB">七. 桌面启动器（大概是这么叫）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
