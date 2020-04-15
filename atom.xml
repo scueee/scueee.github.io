@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scueee.github.io</id>
     <title>scueee</title>
-    <updated>2020-04-14T15:00:42.678Z</updated>
+    <updated>2020-04-15T09:13:25.089Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scueee.github.io"/>
     <link rel="self" href="https://scueee.github.io/atom.xml"/>
@@ -18,7 +18,7 @@
         <updated>2020-04-14T09:33:43.000Z</updated>
         <content type="html"><![CDATA[<p>本人电脑上有存有许多小工具，需要启动时往往疲于寻找，于是尝试了许多方案，终于找到了比较满意的方案，所以写下此篇。当然，本文也会介绍一些曾经尝试过但最后并不顺手的方案。</p>
 <p>首先当然是我正在用的方法，共三个：</p>
-<p>一. <a href="#1"> 使用自带搜索 Cortana </a></p>
+<p>一. <a href="#1"> 使用自带搜索 </a></p>
 <p>二. <a href="#2"> 在任务栏新建工具栏 </a></p>
 <p>三. <a href="#3"> 使用 Win+R </a></p>
 <p>被我放弃的，适用于键盘党的方法：</p>
@@ -29,7 +29,7 @@
 <p>六. <a href="#6">Quicker</a></p>
 <p>七. <a href="#7"> 桌面启动器 </a></p>
 <div id="1">
-<h4 id="一-利用自带搜索-cortana">一. 利用自带搜索 Cortana</h4>
+<h4 id="一-利用自带搜索">一. 利用自带搜索</h4>
 <figure data-type="image" tabindex="1"><img src="https://img-blog.csdnimg.cn/20200414220125223.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NjdWVlZQ==,size_16,color_FFFFFF,t_70" alt="成果" loading="lazy"></figure>
 <p>该方法适用于应用繁多的 Win10 键盘党.</p>
 <ol>
