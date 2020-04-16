@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scueee.github.io</id>
     <title>scueee</title>
-    <updated>2020-04-15T09:13:25.089Z</updated>
+    <updated>2020-04-16T00:28:45.372Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scueee.github.io"/>
     <link rel="self" href="https://scueee.github.io/atom.xml"/>
@@ -11,12 +11,14 @@
     <icon>https://scueee.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, scueee</rights>
     <entry>
-        <title type="html"><![CDATA[Win10应用快捷启动解决方案]]></title>
+        <title type="html"><![CDATA[PC应用快捷启动解决方案]]></title>
         <id>https://scueee.github.io/post/win10-ying-yong-kuai-jie-qi-dong-jie-jue-fang-an/</id>
         <link href="https://scueee.github.io/post/win10-ying-yong-kuai-jie-qi-dong-jie-jue-fang-an/">
         </link>
         <updated>2020-04-14T09:33:43.000Z</updated>
-        <content type="html"><![CDATA[<p>本人电脑上有存有许多小工具，需要启动时往往疲于寻找，于是尝试了许多方案，终于找到了比较满意的方案，所以写下此篇。当然，本文也会介绍一些曾经尝试过但最后并不顺手的方案。</p>
+        <content type="html"><![CDATA[<p>更新：最近试了下<a href="https://www.u.tools/"> uTools </a>，发现很好用，键盘党福音，不过目前好像不能关闭更新。</p>
+<hr>
+<p>本人电脑上有存有许多小工具，需要启动时往往疲于寻找，于是尝试了许多方案，终于找到了比较满意的方案，所以写下此篇。当然，本文也会介绍一些曾经尝试过但最后并不顺手的方案。</p>
 <p>首先当然是我正在用的方法，共三个：</p>
 <p>一. <a href="#1"> 使用自带搜索 </a></p>
 <p>二. <a href="#2"> 在任务栏新建工具栏 </a></p>
@@ -42,7 +44,7 @@
 <p>新建文件夹，将需要启动应用的快捷方式放入文件夹，建议在该文件夹多建几个文件夹分门别类地放，方便以后找。事实上，为了日后方便放入新应用的快捷方式，这里应该将右键单击该文件夹，发送到桌面快捷方式。</p>
 </li>
 <li>
-<p>到此基本OK，按下 Win 徽标键+Q或S调出搜索，键入快捷方式名称的前几个字或字母，直接回车就启动了。</p>
+<p>到此基本OK，按下 Win 徽标键+Q或S调出搜索，键入快捷方式名称的前几个字或字母，直接回车就启动了。按下 Win 键后直接打字也可以调出搜索。</p>
 </li>
 <li>
 <p>但是为求完美，我们需要更改 Win 自带搜索来排除干扰，增加速度。</p>
